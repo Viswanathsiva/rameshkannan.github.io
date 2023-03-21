@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  color: #555 !important;
+  background-color: rgb(226, 226, 226) !important;
+}
+h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+h2:after {
+  display: block;
+  height: 2px;
+  background-color: #c257dd;
+  content: "";
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+h6 {
+  margin-bottom: 2px !important;
+}
+
+/* contact page  */
+.carousel-inner img {
+  height: 450px;
+  width: auto !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  border-radius: 8px;
+  -webkit-user-drag: none;
+}
+.carousel-inner p {
+  font-weight: 500;
+}
+.research_ul {
+  width: fit-content;
+  margin: 0 auto;
+}
