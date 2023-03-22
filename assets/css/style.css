@@ -47,6 +47,10 @@ h6 {
   margin: 0 auto;
 }
 
+/* Current members */
+.current_members img {
+  width: 100px;
+}
 /* projects page  */
 .timeline-steps {
   display: flex;
@@ -62,25 +66,14 @@ h6 {
   margin: 1rem;
 }
 
-@media (min-width: 768px) {
-  .timeline-steps .timeline-step:not(:last-child):after {
-    content: "";
-    display: block;
-    border-top: 0.25rem dotted #3b82f6;
-    width: 1.46rem;
-    position: absolute;
-    left: 3.3rem;
-    top: 0.3125rem;
-  }
-  /* .timeline-steps .timeline-step:not(:first-child):before {
-    content: "";
-    display: block;
-    border-top: 0.25rem dotted #3b82f6;
-    width: 1.8125rem;
-    position: absolute;
-    right: 6rem;
-    top: 0.125rem;
-  } */
+.timeline-steps .timeline-step:not(:last-child):after {
+  content: "";
+  display: block;
+  border-top: 0.25rem dotted #3b82f6;
+  width: 1.46rem;
+  position: absolute;
+  left: 3.3rem;
+  top: 0.3125rem;
 }
 
 .timeline-steps .timeline-content {
@@ -112,3 +105,5 @@ h6 {
 .contact img {
   width: 30px;
 }
+
+/* Footer */

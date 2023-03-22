@@ -1,6 +1,9 @@
 nav {
   background: #385170;
 }
+header .dropdown-menu {
+  background: #8eb4d1;
+}
 
 footer {
   font-size: 12px;
