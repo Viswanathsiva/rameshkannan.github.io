@@ -1,22 +1,37 @@
 nav {
-  /* background: #385170; */
   background: #eaedef;
   font-weight: 600;
+}
+nav ul li {
+  border-radius: 7px;
 }
 
 nav ul li:hover {
   background-color: #b7b9b9;
   border-radius: 7px;
   width: auto;
-  transition: 0.2s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
-nav ul li a:active {
+nav ul li:active {
   background-color: rgb(148, 185, 180);
+  border-radius: 7px;
 }
 
 header .dropdown-menu {
-  background: #8eb4d1;
+  background: #eaedef;
+}
+nav ul li ul li .dropdown-item {
+  font-weight: 600;
+  color: #555;
+}
+nav ul li ul li .dropdown-item:hover {
+  background: #b7b9b9;
+  border-radius: 7px;
+}
+nav ul li ul li .dropdown-item:active {
+  background-color: rgb(148, 185, 180);
+  border-radius: 7px;
 }
 
 footer {
@@ -28,5 +43,5 @@ footer {
 footer p {
   vertical-align: middle;
   display: table-cell;
-  background-color: #385170;
+  background-color: #527094;
 }
