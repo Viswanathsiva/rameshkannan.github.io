@@ -7,6 +7,8 @@ nav ul li {
   border-radius: 7px;
   padding-left: 7px;
   margin-right: 7px;
+  padding: 0px !important;
+  margin: 0px !important;
 }
 
 nav ul li:hover {
@@ -19,6 +21,11 @@ nav ul li:hover {
 nav ul li:active {
   background-color: rgb(148, 185, 180);
   border-radius: 7px;
+}
+
+.nav-link {
+  padding: 0.1rem 0.8rem !important;
+  margin-bottom: 3px;
 }
 
 header .dropdown-menu {
