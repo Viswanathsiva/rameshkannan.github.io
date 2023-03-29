@@ -49,17 +49,18 @@ h6 {
   margin: 0 auto;
 }
 
+.research_ul li {
+  text-align: justify;
+}
 /* teaching page */
 /* .teaching .accordion-button {
   border-radius: 7px !important;
 } */
 .accordion-body ul li {
   margin-bottom: 5px;
+  text-align: justify;
 }
-h5 {
-  text-transform: uppercase;
-  margin: 15px 5px 7px 3px !important;
-}
+
 h3 button {
   font-weight: 600 !important;
 }
@@ -74,7 +75,19 @@ h3 button:hover {
 }
 /* Publications */
 .publication ol li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
+  text-align: justify;
+  padding: 5px 10px;
+  border-radius: 7px;
+}
+.publication ol li:hover {
+  background-color: #ebebeb;
+  transition: 0.3s ease-in-out;
+}
+
+.publication h5 {
+  text-transform: uppercase;
+  margin: 15px 5px 7px 3px !important;
 }
 
 /* Current members */
@@ -82,6 +95,22 @@ h3 button:hover {
   width: 100px;
 }
 /* projects page  */
+.projects .card {
+  margin-bottom: 1rem !important;
+}
+
+.projects .card-header {
+  background-color: #2c786c;
+  color: azure;
+  font-weight: 600;
+}
+
+.projects .btn {
+  background-color: #3baea0 !important;
+  color: #ffffff;
+  font-weight: 600;
+}
+
 .timeline-steps {
   display: flex;
   justify-content: center;
