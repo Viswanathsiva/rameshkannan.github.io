@@ -31,6 +31,31 @@ h6 {
   margin-bottom: 2px !important;
 }
 
+/* about page  */
+.bio_page .card-text {
+  text-align: justify;
+}
+.card {
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
+.bio_page .card img {
+  width: 100px !important;
+}
+.bio_page span {
+  margin-bottom: 10px !important;
+}
+.bio_page b {
+  font-size: 13px;
+  background: #407088;
+  font-weight: 500;
+  padding: 3px 10px;
+  color: #fff;
+  border-radius: 7px;
+}
+
 /* research page  */
 .carousel-inner img {
   height: 450px;
