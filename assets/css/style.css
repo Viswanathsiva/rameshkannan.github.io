@@ -35,8 +35,8 @@ h6 {
 .bio_page .card-text {
   text-align: justify;
 }
-.card {
-  width: 400px;
+.bio_page .card {
+  width: auto;
   border: none;
   border-radius: 10px;
   background-color: #fff;
@@ -54,6 +54,20 @@ h6 {
   padding: 3px 10px;
   color: #fff;
   border-radius: 7px;
+}
+.bio_page p {
+  margin-bottom: 0.5rem !important;
+}
+
+@media (max-width: 770px) {
+  .bio_page p,
+  span {
+    font-size: 0.85rem !important;
+    display: block;
+  }
+  .bio_page h5 {
+    font-size: 1rem !important;
+  }
 }
 
 /* research page  */
@@ -77,6 +91,10 @@ h6 {
 .research_ul li {
   text-align: justify;
 }
+.research .carousel-inner .carousel-item:nth-child(2) {
+  /* display: block; */
+}
+
 /* teaching page */
 /* .teaching .accordion-button {
   border-radius: 7px !important;
