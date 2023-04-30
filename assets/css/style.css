@@ -61,7 +61,7 @@ h6 {
 
 @media (max-width: 770px) {
   .bio_page p,
-  span {
+  .bio_page span {
     font-size: 0.85rem !important;
     display: block;
   }
@@ -106,6 +106,14 @@ h6 {
 
 h3 button {
   font-weight: 600 !important;
+}
+
+.link-btn {
+  line-height: 0px !important;
+}
+
+.accordion-button::after {
+  display: none;
 }
 
 h3 button:hover {
