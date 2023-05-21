@@ -31,6 +31,12 @@ h6 {
   margin-bottom: 2px !important;
 }
 
+/* Home Page  */
+.home img {
+  width: 200px;
+  /* border-radius: 50%; */
+}
+
 /* about page  */
 .bio_page .card-text {
   text-align: justify;
