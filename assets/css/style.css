@@ -148,8 +148,13 @@ h3 button:hover {
 }
 
 /* Current members */
+@media (max-width: 767px) {
+  .std-img-container {
+    margin-bottom: 10px !important;
+  }
+}
 .current_members img {
-  width: 100px;
+  width: 140px;
 }
 /* projects page  */
 .projects .card {
