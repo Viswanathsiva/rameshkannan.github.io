@@ -148,14 +148,30 @@ h3 button:hover {
 }
 
 /* Current members */
-@media (max-width: 767px) {
-  .std-img-container {
-    margin-bottom: 10px !important;
-  }
+.current_members .profile {
+  padding: 25px 0px;
+  margin: 10px;
+  border-radius: 0px 25px 0px 25px;
+  background-color: #d6d6d6;
 }
 .current_members img {
   width: 140px;
 }
+
+@media (max-width: 767px) {
+  .std-img-container {
+    margin-bottom: 10px !important;
+  }
+  .current_members .profile {
+    padding: 10px 0px;
+    border-radius: 10px 10px 10px 10px;
+  }
+  .current_members .profile .card {
+    width: auto !important;
+    margin: 10px !important;
+  }
+}
+
 /* projects page  */
 .projects .card {
   margin-bottom: 1rem !important;
