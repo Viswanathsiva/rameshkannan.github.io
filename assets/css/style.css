@@ -146,6 +146,10 @@ h3 button:hover {
   text-transform: uppercase;
   margin: 15px 5px 7px 3px !important;
 }
+.publication img {
+  width: 50px;
+  -webkit-user-drag: none;
+}
 
 /* Current members */
 .current_members .profile {
@@ -156,6 +160,7 @@ h3 button:hover {
 }
 .current_members img {
   width: 140px;
+  -webkit-user-drag: none;
 }
 
 @media (max-width: 767px) {
