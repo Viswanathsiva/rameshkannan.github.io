@@ -131,6 +131,8 @@ h3 button:hover {
   ); */
 }
 /* Publications */
+.publication .profile-img-sch:la {
+}
 .publication ol li {
   margin-bottom: 15px;
   text-align: justify;
@@ -146,9 +148,32 @@ h3 button:hover {
   text-transform: uppercase;
   margin: 15px 5px 7px 3px !important;
 }
+.publication .profile-img-sch {
+  margin: 5px;
+  width: 70px;
+}
 .publication img {
-  width: 50px;
   -webkit-user-drag: none;
+}
+.publication .irins-img {
+  width: 100px !important;
+}
+.publication .scholar-images .scopus-img {
+  width: 90px;
+  border-radius: 50px;
+}
+.publication .scholar-images a {
+  color: transparent !important;
+  /* text-decoration: none !important; */
+}
+@media (max-width: 767px) {
+  .publication .profile-img-sch {
+    width: 50px;
+    margin: 0px;
+  }
+  .publication .scholar-images .scopus-img {
+    width: 65px;
+  }
 }
 
 /* Current members */
