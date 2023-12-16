@@ -77,9 +77,9 @@ h6 {
 }
 
 /* research page  */
-.research .carousel {
-  /* height: 520px; for scroll indicator below image */
-}
+/* .research .carousel {
+  height: 520px; for scroll indicator below image
+} */
 .carousel-inner img {
   height: 450px;
   width: auto !important;
@@ -131,8 +131,6 @@ h3 button:hover {
   ); */
 }
 /* Publications */
-.publication .profile-img-sch:la {
-}
 .publication ol li {
   margin-bottom: 15px;
   text-align: justify;
