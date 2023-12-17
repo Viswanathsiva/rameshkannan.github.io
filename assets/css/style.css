@@ -213,7 +213,12 @@ h3 button:hover {
   width: 140px;
   -webkit-user-drag: none;
 }
-
+.current_members .profile i {
+  padding: 0px 8px 0px 0px;
+}
+.current_members .profile .std-name {
+  margin-left: -5px;
+}
 @media (max-width: 767px) {
   .std-img-container {
     margin-bottom: 10px !important;
