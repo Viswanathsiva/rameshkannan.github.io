@@ -39,7 +39,19 @@ header .drpdn-list {
 /* Home Page  */
 .home img {
   width: 200px;
-  /* border-radius: 50%; */
+}
+.home .social-cards i {
+  font-size: 25px;
+  margin: 5px 10px;
+}
+.home i.bi-youtube {
+  color: #ff0000 !important;
+}
+.home i.bi-twitter {
+  color: #00acee !important;
+}
+.home i.bi-linkedin {
+  color: #0072b1 !important;
 }
 
 /* about page  */
