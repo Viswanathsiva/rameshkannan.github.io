@@ -160,8 +160,17 @@ header .drpdn-list {
 .research .research-evolution {
   width: 300px !important;
 }
-
+.research hr {
+  border: 1.5px solid;
+}
+.research-videos-tag {
+  width: 400px;
+}
 @media (max-width: 767px) {
+  .carousel-inner img {
+    width: 200px !important;
+    height: 300px;
+  }
   .research-videos-tag {
     width: 350px;
   }
