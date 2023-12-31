@@ -6,7 +6,7 @@
 body {
   color: #555 !important;
   background-color: rgb(245, 245, 245) !important;
-  /* background-color: rgb(233, 227, 227) !important; */
+  /* background-color: rgb(255, 255, 255) !important; */
 }
 body img {
   -webkit-user-drag: none;
@@ -37,12 +37,43 @@ header .drpdn-list {
   margin: 4px 10px !important;
 }
 /* Home Page  */
+.home .card {
+  width: auto;
+  border: none;
+  border-radius: 10px;
+  background-color: #fff;
+}
 .home img {
   width: 200px;
+}
+.home .profile-img-sch {
+  margin: 5px !important;
+  width: 35px !important;
+}
+.home img {
+  -webkit-user-drag: none;
+}
+.home .irins-img {
+  width: 70px !important;
+}
+.home .scholar-images .scopus-img {
+  width: 90px !important;
+  border-radius: 50px !important;
+}
+.home .scholar-images a {
+  color: transparent !important;
+  /* text-decoration: none !important; */
 }
 .home .social-cards i {
   font-size: 25px;
   margin: 5px 10px;
+}
+.home .more-info a {
+  text-decoration: none;
+  font-weight: 400 !important;
+}
+.home .more-info b {
+  font-weight: 600 !important;
 }
 .home i.bi-youtube {
   color: #ff0000 !important;
@@ -81,6 +112,9 @@ header .drpdn-list {
 .bio_page p {
   margin-bottom: 0.5rem !important;
 }
+.bio_page a {
+  text-decoration: none;
+}
 
 @media (max-width: 770px) {
   .bio_page p,
@@ -106,7 +140,8 @@ header .drpdn-list {
   border-radius: 8px;
   -webkit-user-drag: none;
 }
-.carousel-inner p {
+.carousel-inner,
+.research-videos p {
   font-weight: 500;
 }
 .research_ul {
@@ -119,29 +154,48 @@ header .drpdn-list {
 .research_ul li {
   text-align: justify;
 }
+.research video {
+  border-radius: 7px;
+}
+.research .research-evolution {
+  width: 300px !important;
+}
+
+@media (max-width: 767px) {
+  .research-videos-tag {
+    width: 350px;
+  }
+}
+
 /*  */
 
 /* teaching page */
 .teaching-page .accordion-body {
-  background-color: #ececec;
+  background-color: #ffffff;
 }
 .accordion-body ul li {
   margin-bottom: 5px;
   text-align: justify;
 }
-
 h3 button {
   font-weight: 600 !important;
 }
-
 .link-btn {
   line-height: 0px !important;
 }
-
 .accordion-button::after {
   display: none;
 }
-
+.teaching-page .list-group i {
+  font-size: 5px;
+}
+.teaching-page .list-group b {
+  font-weight: 700;
+}
+.teaching-page .nested-li {
+  line-height: 17px;
+  font-size: 13.5px;
+}
 h3 button:hover {
   background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   /* background: radial-gradient(
@@ -151,6 +205,12 @@ h3 button:hover {
   ); */
 }
 /* Publications */
+/* .publication-header {
+  background: url("../images/collage.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 200px;
+} */
 .publication ol li {
   margin-bottom: 15px;
   text-align: justify;
@@ -176,21 +236,26 @@ h3 button:hover {
 .publication .irins-img {
   width: 100px !important;
 }
-.publication .scholar-images .scopus-img {
+/* .publication .scholar-images .scopus-img {
   width: 90px;
   border-radius: 50px;
-}
+} */
 .publication .scholar-images a {
   color: transparent !important;
   /* text-decoration: none !important; */
 }
+.publication a {
+  text-decoration: none !important;
+}
+.publication i {
+}
 @media (max-width: 767px) {
   .publication .profile-img-sch {
-    width: 50px;
+    width: 35px;
     margin: 0px;
   }
-  .publication .scholar-images .scopus-img {
-    width: 65px;
+  .publication .irins-img {
+    width: 70px !important;
   }
 }
 
@@ -202,6 +267,17 @@ h3 button:hover {
   padding: 1px 8px 2px 8px;
   color: #fff;
   border-radius: 5px;
+}
+.current_members .profile-img-sch {
+  margin: 5px !important;
+  width: 30px !important;
+}
+.current_members .irins-img {
+  width: 70px !important;
+}
+.current_members .scholar-images a {
+  color: transparent !important;
+  /* text-decoration: none !important; */
 }
 .current_members .profile {
   padding: 25px 0px;
