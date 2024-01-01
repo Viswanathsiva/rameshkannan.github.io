@@ -3,6 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
+html::-webkit-scrollbar {
+  width: 7px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #b1b6ba;
+  border-radius: 4 px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
 body {
   color: #555 !important;
   background-color: rgb(245, 245, 245) !important;
@@ -256,8 +268,6 @@ h3 button:hover {
 .publication a {
   text-decoration: none !important;
 }
-.publication i {
-}
 @media (max-width: 767px) {
   .publication .profile-img-sch {
     width: 35px;
@@ -322,19 +332,24 @@ h3 button:hover {
 .projects .card {
   margin-bottom: 1rem !important;
 }
-
 .projects .card-header {
   background-color: #46658b;
   color: azure;
   font-weight: 600;
 }
-
 .projects .btn {
   background-color: #6387b4 !important;
   color: #ffffff;
   font-weight: 600;
 }
-
+.projects .project-year {
+  font-size: 11px;
+  background: #5b8ec5;
+  font-weight: 500;
+  padding: 2px 8px 2px 8px;
+  color: #fff;
+  border-radius: 5px;
+}
 .timeline-steps {
   display: flex;
   justify-content: center;
