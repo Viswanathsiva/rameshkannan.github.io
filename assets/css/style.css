@@ -9,7 +9,7 @@ html::-webkit-scrollbar {
 
 html::-webkit-scrollbar-thumb {
   background-color: #b1b6ba;
-  border-radius: 4 px;
+  border-radius: 4px;
 }
 
 html::-webkit-scrollbar-track {
