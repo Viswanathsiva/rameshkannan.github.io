@@ -208,7 +208,8 @@ h3 button {
   display: none;
 }
 .teaching-page .list-group i {
-  font-size: 5px;
+  font-size: 15px;
+  color: #787878;
 }
 .teaching-page .list-group b {
   font-weight: 700;
