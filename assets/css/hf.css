@@ -75,12 +75,15 @@ footer i {
 footer i.bi-youtube:hover {
   background-color: #fff;
   color: #ff0000 !important;
+  transition: 0.2s ease-in-out !important;
 }
 footer i.bi-twitter:hover {
   background-color: #fff;
   color: #00acee !important;
+  transition: 0.2s ease-in-out !important;
 }
 footer i.bi-linkedin:hover {
   background-color: #fff;
   color: #0072b1 !important;
+  transition: 0.2s ease-in-out !important;
 }

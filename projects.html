@@ -23,74 +23,169 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <!-- Bootstrap CSS -->
+    <!-- Bootstrap css -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
 
     <title>RameshKK</title>
   </head>
   <body>
+    <div class="preloader">
+      <div class="spinner-grow text-primary" role="status">
+        <span class="visually-hidden"></span>
+      </div>
+    </div>
     <div id="header"></div>
     <div class="projects">
       <div class="container">
         <h2>Projects</h2>
       </div>
       <div class="container">
+        <!-- <table class="table table-hover table-bordered">
+          <thead>
+            <tr>
+              <th class="text-center">Project Title</th>
+              <th>Project Type</th>
+              <th>Sponsoring agency</th>
+              <th>Role</th>
+              <th>Timeline</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                A critical understanding on the mechanics of gas hydrate
+                sediments for sustainable long term energy extraction
+              </td>
+              <td>Sponsored Research</td>
+              <td>Start-up Research Grant, SERB</td>
+              <td>Principal investigator</td>
+              <td>Nov, 2020 - Nov, 2023</td>
+            </tr>
+            <tr>
+              <td>
+                A critical understanding on the mechanics of gas hydrate
+                sediments for sustainable long term energy extraction
+              </td>
+              <td>Sponsored Research</td>
+              <td>Start-up Research Grant, SERB</td>
+              <td>Principal investigator</td>
+              <td>Nov, 2020 - Nov, 2023</td>
+            </tr>
+            <tr>
+              <td>
+                A critical understanding on the mechanics of gas hydrate
+                sediments for sustainable long term energy extraction
+              </td>
+              <td>Sponsored Research</td>
+              <td>Start-up Research Grant, SERB</td>
+              <td>Principal investigator</td>
+              <td>Nov, 2020 - Nov, 2023</td>
+            </tr>
+          </tbody>
+        </table>
         <div class="card">
-          <div class="card-header">
+          <div
+            class="card-header"
+            data-bs-toggle="collapse"
+            href="#collapseExample_1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            A critical understanding on the mechanics of gas hydrate sediments
+            for sustainable long term energy extraction
+          </div>
+          <div class="collapse" id="collapseExample_1">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Project Type</th>
+                  <th>Sponsoring agency</th>
+                  <th>Role</th>
+                  <th>Timeline</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sponsored Research</td>
+                  <td>Start-up Research Grant, SERB</td>
+                  <td>Principal investigator</td>
+                  <td>Nov, 2020 - Nov, 2023</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div> -->
+        <!-- <div class="card">
+          <div
+            class="card-header"
+            data-bs-toggle="collapse"
+            href="#collapseExample_1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            A critical understanding on the mechanics of gas hydrate sediments
+            for sustainable long term energy extraction
+          </div>
+          <div class="collapse" id="collapseExample_1">
+            <table class="table table-hover">
+              <tbody>
+                <tr>
+                   <td><b>Project Type: </b>Sponsored Research</td>
+                </tr>
+                <tr>
+                  <th>Sponsoring agency</th>
+                  <td>Start-up Research Grant, SERB</td>
+                </tr>
+                <tr>
+                  <th>Role</th>
+                  <td>Principal investigator</td>
+                </tr>
+                <tr>
+                  <th>Timeline</th>
+                  <td>Nov, 2020 - Nov, 2023</td>
+                </tr>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div> -->
+        <div class="card">
+          <div
+            class="card-header"
+            data-bs-toggle="collapse"
+            href="#collapseExample_1"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            A critical understanding on the mechanics of gas hydrate sediments
+            for sustainable long term energy extraction
+          </div>
+          <!-- <div class="card-header">
             <div>Sponsored Research</div>
             <div class="mt-2">
               <b class="project-year">Nov, 2020 - Nov, 2023</b>
             </div>
-          </div>
-          <div class="card-body">
+          </div> -->
+          <div class="card-body collapse" id="collapseExample_1">
             <h5 class="card-title">
-              A critical understanding on the mechanics of gas hydrate sediments
-              for sustainable long term energy extraction
+              Sponsored Research
+              <b class="project-year ms-3">Nov, 2020 - Nov, 2023</b>
             </h5>
             <p class="card-text">Start-up Research Grant, SERB</p>
             <div class="row">
               <div class="col">
-                <a class="btn">Principal investigator</a>
+                <p>Principal investigator</p>
               </div>
             </div>
           </div>
-          <!-- <div class="row">
-            <div class="col">
-              <div class="timeline-steps">
-                <div class="timeline-step">
-                  <div
-                    class="timeline-content"
-                    data-toggle="popover"
-                    data-trigger="hover"
-                    data-placement="top"
-                    data-original-title="2003"
-                  >
-                    <div class="inner-circle"></div>
-                    <p class="h6 mt-1">2020</p>
-                    <p class="h6 text-muted">Nov</p>
-                  </div>
-                </div>
-                <div class="timeline-step">
-                  <div
-                    class="timeline-content"
-                    data-toggle="popover"
-                    data-trigger="hover"
-                    data-placement="top"
-                    data-original-title="2005"
-                  >
-                    <div class="inner-circle"></div>
-                    <p class="h6 mt-1">2022</p>
-                    <p class="h6 text-muted mb-0 mb-lg-0">Nov</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
 
         <div class="card">
@@ -148,69 +243,39 @@
           </div>
           <div class="card-body">
             <h5 class="card-title">
-              Particle migration studies in porous media
+              Particle Migration Studies in Porous Media
             </h5>
-            <p class="card-text">New faculty initiation grant, IIT Madras</p>
-            <div class="row">
-              <div class="col">
-                <a class="btn">Principal investigator</a>
+            <p class="card-text">New Faculty Initiation Grant, IIT Madras</p>
+            <div class="row d-inline-flex">
+              <div class="col h6">Role: Principal Investigator</div>
+              <p class="d-inline-flex gap-1">
+                <i
+                  class="bi bi-info-circle"
+                  data-bs-toggle="collapse"
+                  href="#collapseExample"
+                  role="button"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                ></i>
+              </p>
+              <div class="collapse" id="collapseExample">
+                <div class="card card-body bg-warning">
+                  Some placeholder content for the collapse component. This
+                  panel is hidden by default but revealed when the user
+                  activates the relevant trigger.
+                </div>
               </div>
             </div>
           </div>
-          <!-- <div class="row">
-            <div class="col">
-              <div class="timeline-steps">
-                <div class="timeline-step">
-                  <div
-                    class="timeline-content"
-                    data-toggle="popover"
-                    data-trigger="hover"
-                    data-placement="top"
-                    data-original-title="2019"
-                  >
-                    <div class="inner-circle"></div>
-                    <p class="h6 mt-1">2019</p>
-                    <p class="h6 text-muted">May</p>
-                  </div>
-                </div>
-                <div class="timeline-step">
-                  <div
-                    class="timeline-content"
-                    data-toggle="popover"
-                    data-trigger="hover"
-                    data-placement="top"
-                    data-original-title="2021"
-                  >
-                    <div class="inner-circle"></div>
-                    <p class="h6 mt-1">2021</p>
-                    <p class="h6 text-muted mb-0 mb-lg-0">May</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> -->
         </div>
       </div>
     </div>
 
     <div id="footer"></div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <!-- <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script> -->
-
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-
     <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
   </body>
@@ -220,4 +285,5 @@
       $("#footer").load("footer.html");
     });
   </script>
+  <script src="./assets/Javascript/preloader.js"></script>
 </html>
