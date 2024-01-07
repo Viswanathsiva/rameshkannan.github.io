@@ -345,6 +345,9 @@ h3 button:hover {
 .projects .card {
   margin-bottom: 1rem !important;
 }
+.projects .card-title {
+  font-size: 17px !important;
+}
 .projects .card-header {
   background-color: #46658b;
   color: azure;
