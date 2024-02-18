@@ -87,3 +87,20 @@ footer i.bi-linkedin:hover {
   color: #0072b1 !important;
   transition: 0.2s ease-in-out !important;
 }
+
+@media (max-width: 480px) {
+  nav {
+    background-color: #527094 !important;
+    /* background: #eaedef; */
+    font-weight: 600;
+  }
+  nav div button {
+    background: white !important;
+  }
+  nav div div ul li a {
+    color: #fff !important;
+  }
+  header .dropdown-menu {
+    background: #5882b6;
+  }
+}
