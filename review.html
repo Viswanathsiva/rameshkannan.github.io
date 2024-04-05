@@ -39,74 +39,91 @@
     </div>
     <div id="header"></div>
     <div class="container">
-      <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Name</label>
-        <input
-          type="name"
-          class="form-control"
-          id="exampleFormControlInput1"
-          placeholder="Your name"
-        />
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlInput2" class="form-label"
-          >Email address</label
-        >
-        <input
-          type="email"
-          class="form-control"
-          id="exampleFormControlInput2"
-          placeholder="name@example.com"
-        />
-      </div>
-
-      <div class="form-group mb-3">
-        <label for="student" class="form-label">Student Type</label>
-        <div class="custom-control custom-radio">
+      <form
+        action="https://formsubmit.co/7db65902c05c7e8fb66cf511ebb309a7"
+        method="POST"
+      >
+        <div class="mb-3">
+          <label for="exampleFormControlInput1" class="form-label">Name</label>
           <input
-            type="radio"
-            id="newsRadio"
-            name="interest"
-            class="custom-control-input"
-            value="PHD"
+            type="name"
+            name="Name"
+            class="form-control"
+            id="exampleFormControlInput1"
+            placeholder="Your name"
+            required
           />
-          <label class="custom-control-label me-3" for="newsRadio">Ph.D</label>
-          <input
-            type="radio"
-            id="entertainmentRadio"
-            name="interest"
-            class="custom-control-input"
-            value="MTECH"
-          />
-          <label class="custom-control-label me-3" for="entertainmentRadio"
-            >M.Tech</label
-          >
-          <input
-            type="radio"
-            id="moviesRadio"
-            name="interest"
-            class="custom-control-input"
-            value="BTECH"
-          />
-          <label class="custom-control-label me-3" for="moviesRadio"
-            >B.Tech</label
-          >
         </div>
-      </div>
+        <div class="mb-3">
+          <label for="exampleFormControlInput2" class="form-label"
+            >Email address</label
+          >
+          <input
+            type="email"
+            name="Email"
+            class="form-control"
+            id="exampleFormControlInput2"
+            placeholder="name@example.com"
+            required
+          />
+        </div>
 
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label"
-          >Type your comments</label
-        >
-        <textarea
-          class="form-control"
-          id="exampleFormControlTextarea1"
-          rows="3"
-        ></textarea>
-      </div>
-      <div class="col-auto">
-        <button type="submit" class="btn btn-primary mb-3">Submit</button>
-      </div>
+        <div class="form-group mb-3">
+          <label for="student" class="form-label">Student Type</label>
+          <div class="custom-control custom-radio">
+            <input
+              type="radio"
+              id="newsRadio"
+              name="Course"
+              class="custom-control-input"
+              value="PHD"
+              required
+            />
+            <label class="custom-control-label me-3" for="newsRadio"
+              >Ph.D</label
+            >
+            <input
+              type="radio"
+              id="entertainmentRadio"
+              name="Course"
+              class="custom-control-input"
+              value="MTECH"
+              required
+            />
+            <label class="custom-control-label me-3" for="entertainmentRadio"
+              >M.Tech</label
+            >
+            <input
+              type="radio"
+              id="moviesRadio"
+              name="Course"
+              class="custom-control-input"
+              value="BTECH"
+              required
+            />
+            <label class="custom-control-label me-3" for="moviesRadio"
+              >B.Tech</label
+            >
+          </div>
+        </div>
+
+        <div class="mb-3">
+          <label for="exampleFormControlTextarea1" class="form-label"
+            >Type your comments</label
+          >
+          <textarea
+            class="form-control"
+            name="Comments"
+            id="exampleFormControlTextarea1"
+            rows="3"
+            required
+          ></textarea>
+          <input type="hidden" name="_captcha" value="false" />
+        </div>
+        <div class="col-auto">
+          <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </div>
+      </form>
     </div>
     <div id="footer"></div>
     <script

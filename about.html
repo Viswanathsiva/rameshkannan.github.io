@@ -275,10 +275,26 @@
     ></script>
   </body>
   <script>
-    $(document).ready(function () {
-      $("#header").load("header.html");
-      $("#footer").load("footer.html");
-    });
+    // Load header content dynamically
+    fetch("./header.html")
+      .then((response) => response.text())
+      .then((html) => {
+        document.getElementById("header").innerHTML = html;
+        setActiveLink("about");
+      });
+    fetch("./footer.html")
+      .then((response) => response.text())
+      .then((html) => {
+        document.getElementById("footer").innerHTML = html;
+      });
+
+    function setActiveLink(linkId) {
+      var links = document.querySelectorAll("nav ul li a");
+      links.forEach((link) => {
+        link.classList.remove("active");
+      });
+      document.getElementById(linkId).classList.add("active");
+    }
   </script>
   <script src="./assets/Javascript/preloader.js"></script>
 </html>

@@ -11,7 +11,6 @@ nav ul li {
   margin: 0px !important;
 }
 .nav-link.active {
-  color: #ff0000 !important; /* Change the color to your desired active state */
   font-weight: bold !important; /* Add any additional styling as needed */
 }
 
