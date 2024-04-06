@@ -44,433 +44,53 @@
     <div class="container">
       <h2>Graduates from Our Research Group</h2>
     </div>
-    <div class="container current_members">
-      <div class="profile">
-        <div class="d-md-flex">
-          <div
-            class="std-img-container mx-md-4 d-flex align-items-center justify-content-center"
-          >
-            <img
-              src="./assets/images/students/alumni/Megha.jfif"
-              class="rounded mx-auto d-block"
-              alt="..."
-            />
-          </div>
-          <div class="card w-100 mx-md-4 p-3">
-            <!-- <table class="table">
-              <tbody>
-                <tr>
-                  <h5 class="card-title">
-                    <td><i class="bi bi-person-fill"></i></td>
-                    <td><b>Megha S Narayanan</b></td>
-                  </h5>
-                </tr>
-                <tr>
-                  <h5 class="card-title">
-                    <td><i class="bi bi-mortarboard-fill"></i></td>
-                    <td>M. Tech. <b class="std-year">2021 - 2023</b></td>
-                  </h5>
-                </tr>
-                <tr>
-                  <td><i class="bi bi-search"></i></td>
-                  <td>
-                    <span>
-                      <b>Thesis title :</b> Numerical modelling of soil - coir
-                      geotextile interaction during pullout loading |
-                      <a
-                        class="ms-2"
-                        href="#"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <i class="bi bi-box-arrow-up-right"></i>
-                      </a>
-                    </span>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <i class="bi bi-envelope-at-fill"></i>
-                  </td>
-                  <td>megha19898@gmail.com</td>
-                </tr>
-                <tr>
-                  <td colspan="12">
-                    <b>Last known affiliation :</b>
-                    Hamburg University of Technology, Germany
-                  </td>
-                </tr>
-              </tbody>
-            </table> -->
-            <h5 class="card-title">
-              <i class="bi bi-person-fill"></i>
-              <span class="std-name">Megha S Narayanan</span>
-            </h5>
-            <span
-              ><i class="bi bi-mortarboard-fill"></i> M. Tech.
-              <b class="std-year">2021 - 2023</b></span
+    <div id="profiles-container" class="container current_members">
+      <template id="profile-template">
+        <div class="profile">
+          <div class="d-md-flex">
+            <div
+              class="std-img-container mx-md-4 d-flex align-items-center justify-content-center"
             >
-            <span class="d-flex">
-              <div class="mt-1">
-                <i class="bi bi-search"></i>
-              </div>
-              <div class="m-1">
-                <b>Thesis title :</b> Numerical modelling of soil - coir
-                geotextile interaction during pullout loading |
-                <a
-                  class="ms-2"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-              </div>
-            </span>
-            <span
-              ><i class="bi bi-envelope-at-fill"></i> megha19898@gmail.com</span
-            >
-            <p class="card-text">
-              <b>Last known affiliation :</b> Hamburg University of Technology,
-              Germany
-            </p>
+              <img class="rounded mx-auto d-block" alt="Profile Image" />
+            </div>
+            <div class="card w-100 mx-md-4 p-3">
+              <h5 class="card-title">
+                <i class="bi bi-person-fill"></i>
+                <span class="std-name"></span>
+              </h5>
+              <span>
+                <i class="bi bi-mortarboard-fill"></i>
+                <span class="std-degree"></span>
+                <b class="std-year"></b>
+              </span>
+              <span class="d-flex">
+                <div class="mt-1">
+                  <i class="bi bi-search"></i>
+                </div>
+                <div class="m-1">
+                  <b>Thesis title :</b> <span class="std-thesis-title"></span> |
+                  <a
+                    class="ms-2 std-thesis-link"
+                    href="#"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <i class="bi bi-box-arrow-up-right"></i>
+                  </a>
+                </div>
+              </span>
+              <span>
+                <i class="bi bi-envelope-at-fill"></i>
+                <span class="std-email"></span>
+              </span>
+              <p class="card-text">
+                <b>Last known affiliation :</b>
+                <span class="std-affiliation"></span>
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="profile">
-        <div class="d-md-flex">
-          <div
-            class="std-img-container mx-md-4 d-flex align-items-center justify-content-center"
-          >
-            <img
-              src="./assets/images/students/alumni/Prakash.jpg"
-              class="rounded mx-auto d-block"
-              alt="..."
-            />
-          </div>
-          <div class="card w-100 mx-md-4 p-3">
-            <h5 class="card-title">
-              <i class="bi bi-person-fill"></i>
-              <span class="std-name">Prakash Badu</span>
-            </h5>
-            <span
-              ><i class="bi bi-mortarboard-fill"></i> M. Tech.
-              <b class="std-year">2021 - 2023</b></span
-            >
-            <span class="d-flex">
-              <div class="mt-1">
-                <i class="bi bi-search"></i>
-              </div>
-              <div class="m-1">
-                <b>Thesis title :</b> Micromechanics of aggregate-rubber
-                interactions during simple shear - A DEM study |
-                <a
-                  class="ms-2"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-              </div>
-            </span>
-            <span
-              ><i class="bi bi-envelope-at-fill"></i>
-              prakash.badu123@gmail.com</span
-            >
-            <p class="card-text">
-              <b>Last known affiliation :</b>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="d-md-flex">
-          <div
-            class="std-img-container mx-md-4 d-flex align-items-center justify-content-center"
-          >
-            <img
-              src="./assets/images/students/alumni/Rajeev.png"
-              class="rounded mx-auto d-block"
-              alt="..."
-            />
-          </div>
-          <div class="card w-100 mx-md-4 p-3">
-            <h5 class="card-title">
-              <i class="bi bi-person-fill"></i>
-              <span class="std-name">Rajeev Ranjan Kumar</span>
-            </h5>
-            <span
-              ><i class="bi bi-mortarboard-fill"></i> M. Tech.
-              <b class="std-year">2021 - 2023</b></span
-            >
-            <span class="d-flex">
-              <div class="mt-1">
-                <i class="bi bi-search"></i>
-              </div>
-              <div class="m-1">
-                <b>Thesis title :</b> A Simplified Hyperbolic model for gas
-                hydrate sediments |
-                <a
-                  class="ms-2"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-              </div>
-            </span>
-            <span
-              ><i class="bi bi-envelope-at-fill"></i>
-              rajeev.kumar.14c@gmail.com</span
-            >
-            <p class="card-text">
-              <b>Last known affiliation :</b>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="d-md-flex">
-          <div
-            class="std-img-container mx-md-4 d-flex align-items-center justify-content-center"
-          >
-            <img
-              src="./assets/images/students/alumni/Shabna_2022.jpg"
-              class="rounded mx-auto d-block"
-              alt="..."
-            />
-          </div>
-          <div class="card w-100 mx-md-4 p-3">
-            <h5 class="card-title">
-              <i class="bi bi-person-fill"></i>
-              <span class="std-name">Shabna Thasneem</span>
-            </h5>
-            <span
-              ><i class="bi bi-mortarboard-fill"></i> M. Tech.
-              <b class="std-year">2020 - 2022</b></span
-            >
-            <span class="d-flex">
-              <div class="mt-1">
-                <i class="bi bi-search"></i>
-              </div>
-              <div class="m-1">
-                <b>Thesis title :</b> Numerical modelling of 3D geo-reinforcment
-                to quantify interfacial strength characteristics |
-                <a
-                  class="ms-2"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-              </div>
-            </span>
-            <span
-              ><i class="bi bi-envelope-at-fill"></i>
-              shabnathasneem11@gmail.com</span
-            >
-            <p class="card-text">
-              <b>Last known affiliation :</b> Larsen & Toubro Construction
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="d-md-flex">
-          <div
-            class="std-img-container mx-md-4 d-flex align-items-center justify-content-center"
-          >
-            <img
-              src="./assets/images/students/alumni/Rahul_2022.jpg"
-              class="rounded mx-auto d-block"
-              alt="..."
-            />
-          </div>
-          <div class="card w-100 mx-md-4 p-3">
-            <h5 class="card-title">
-              <i class="bi bi-person-fill"></i>
-              <span class="std-name">Rahul Ramachandran</span>
-            </h5>
-            <span
-              ><i class="bi bi-mortarboard-fill"></i> M. Tech.
-              <b class="std-year">2020 - 2022</b></span
-            >
-            <span class="d-flex">
-              <div class="mt-1">
-                <i class="bi bi-search"></i>
-              </div>
-              <div class="m-1">
-                <b>Thesis title :</b> Evolution of voids and constrictions
-                during shearing granular materials |
-                <a
-                  class="ms-2"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-              </div>
-            </span>
-            <span
-              ><i class="bi bi-envelope-at-fill"></i>
-              ce17b124@smail.iitm.ac.in</span
-            >
-            <p class="card-text">
-              <b>Last known affiliation :</b>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="d-md-flex">
-          <div
-            class="std-img-container mx-md-4 d-flex align-items-center justify-content-center"
-          >
-            <img
-              src="./assets/images/students/alumni/Neeraj_2021.png"
-              class="rounded mx-auto d-block"
-              alt="..."
-            />
-          </div>
-          <div class="card w-100 mx-md-4 p-3">
-            <h5 class="card-title">
-              <i class="bi bi-person-fill"></i>
-              <span class="std-name">Neeraj Pulaganti</span>
-            </h5>
-            <span
-              ><i class="bi bi-mortarboard-fill"></i> M. Tech.
-              <b class="std-year">2019 - 2021</b></span
-            >
-            <span class="d-flex">
-              <div class="mt-1">
-                <i class="bi bi-search"></i>
-              </div>
-              <div class="m-1">
-                <b>Thesis title :</b> Quantification of constriction size
-                distribution in porous media considering the effect of gradation
-                and packing |
-                <a
-                  class="ms-2"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-              </div>
-            </span>
-            <span
-              ><i class="bi bi-envelope-at-fill"></i>
-              neerajpulaganti141@gmail.com</span
-            >
-            <p class="card-text">
-              <b>Last known affiliation :</b> Bauer Engineering India Private
-              Limited
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="d-md-flex">
-          <div
-            class="std-img-container mx-md-4 d-flex align-items-center justify-content-center"
-          >
-            <img
-              src="./assets/images/students/alumni/Selva_2020.png"
-              class="rounded mx-auto d-block"
-              alt="..."
-            />
-          </div>
-          <div class="card w-100 mx-md-4 p-3">
-            <h5 class="card-title">
-              <i class="bi bi-person-fill"></i>
-              <span class="std-name">Selvakumar N</span>
-            </h5>
-            <span
-              ><i class="bi bi-mortarboard-fill"></i> M. Tech.
-              <b class="std-year">2018 - 2020</b></span
-            >
-            <span class="d-flex">
-              <div class="mt-1">
-                <i class="bi bi-search"></i>
-              </div>
-              <div class="m-1">
-                <b>Thesis title :</b> Particle migration studies of bentonite
-                suspension through granular soils |
-                <a
-                  class="ms-2"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-              </div>
-            </span>
-            <span
-              ><i class="bi bi-envelope-at-fill"></i>
-              selvakumar0410@gmail.com</span
-            >
-            <p class="card-text">
-              <b>Last known affiliation :</b> Oil and Natural Gas Corporation
-              (ONGC)
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="profile">
-        <div class="d-md-flex">
-          <div
-            class="std-img-container mx-md-4 d-flex align-items-center justify-content-center"
-          >
-            <img
-              src="./assets/images/students/alumni/Neeraj_2020.png"
-              class="rounded mx-auto d-block"
-              alt="..."
-            />
-          </div>
-          <div class="card w-100 mx-md-4 p-3">
-            <h5 class="card-title">
-              <i class="bi bi-person-fill"></i>
-              <span class="std-name">Neeraj Keserwani</span>
-            </h5>
-            <span
-              ><i class="bi bi-mortarboard-fill"></i> M. Tech.
-              <b class="std-year">2018 - 2020</b></span
-            >
-            <span class="d-flex"
-              ><div>
-                <i class="bi bi-search"></i>
-              </div>
-              <div>
-                <b>Thesis title :</b> Numerical analysis to determine pile load
-                capacity for construction of Regional Rapid Transit System
-                (RRTS) in NCR |
-                <a
-                  class="ms-2"
-                  href="#"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i class="bi bi-box-arrow-up-right"></i>
-                </a>
-              </div>
-            </span>
-            <span
-              ><i class="bi bi-envelope-at-fill"></i>
-              neerajkeserwani78@gmail.com</span
-            >
-            <p class="card-text">
-              <b>Last known affiliation :</b> Rail India Technical and Economic
-              Service (RITES)
-            </p>
-          </div>
-        </div>
-      </div>
+      </template>
     </div>
     <div id="footer"></div>
 
@@ -518,4 +138,5 @@
     }
   </script>
   <script src="./assets/Javascript/preloader.js"></script>
+  <script src="./assets/Javascript/alumni-members.js"></script>
 </html>
