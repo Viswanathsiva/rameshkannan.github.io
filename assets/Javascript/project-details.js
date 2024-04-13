@@ -1,16 +1,16 @@
 const projects = [
   {
     projectTitile:
-      "Investigations on the influence of Geogrids in Bituminous Pavements",
-    role: "Principal Investigator",
-    sponsor: "IndInfravit Trust",
+      "Study of compaction mechanics of bituminous mixtures and applications in 3-D paving",
+    role: "Co-Principal Investigator",
+    sponsor: "Core research grant, SERB",
     timePeriod: "2024 - 2027",
   },
   {
     projectTitile:
-      "Study of compaction mechanics of bituminous mixtures and applications in 3-D paving",
-    role: "Co-Principal Investigator",
-    sponsor: "Core research grant, SERB",
+      "Investigations on the influence of Geogrids in Bituminous Pavements",
+    role: "Principal Investigator",
+    sponsor: "IndInfravit Trust",
     timePeriod: "2024 - 2027",
   },
   {

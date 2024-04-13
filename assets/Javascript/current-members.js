@@ -135,16 +135,11 @@ function displayProfiles() {
     clone.querySelector(".research-gate").href = profile.researchGateLink;
     clone.querySelector(".linkedin").href = profile.linkedinLink;
     if (profile.isPrimaryGuidePresent) {
-      clone.querySelector(".primary-guide").textContent = str(
-        profile.guideName
-      );
+      const primaryGuideSpan = clone.querySelector(".primary-guide");
+      primaryGuideSpan.innerHTML = ` | <b>Primary Guide:</b> ${profile.guideName}`;
     }
     container.appendChild(clone);
   });
-}
-
-function str(name) {
-  return `| Primary Guide: ${name}`;
 }
 
 window.onload = displayProfiles;
