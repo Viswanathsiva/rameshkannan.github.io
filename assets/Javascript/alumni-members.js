@@ -1,6 +1,17 @@
 // Array of Alumni profile objects
 const profiles = [
   {
+    name: "Saikiran Naikoti",
+    image: "./assets/images/students/alumni/SaiKiran.jpg",
+    degree: "M. Tech.",
+    year: "2022 - 2024",
+    thesisTitle:
+      "Transition of cavity to finger during fluid injection through granular medium",
+    thesisLink: "",
+    email: "naikotisaikiran22@gmail.com",
+    affiliation: "Advanced Structural Engineering Consultants",
+  },
+  {
     name: "Megha S Narayanan",
     image: "./assets/images/students/alumni/Megha.jfif",
     degree: "M. Tech.",
@@ -20,7 +31,7 @@ const profiles = [
       "Micromechanics of aggregate-rubber interactions during simple shear - A DEM study",
     thesisLink: "",
     email: "prakash.badu123@gmail.com",
-    affiliation: "",
+    affiliation: "Upper Arun Hydro Electric Limited",
   },
   {
     name: "Rajeev Ranjan Kumar",
@@ -30,7 +41,7 @@ const profiles = [
     thesisTitle: "A Simplified Hyperbolic model for gas hydrate sediments",
     thesisLink: "",
     email: "rajeev.kumar.14c@gmail.com",
-    affiliation: "",
+    affiliation: "Prof.VS.Raju Consultants",
   },
   {
     name: "Shabna Thasneem",

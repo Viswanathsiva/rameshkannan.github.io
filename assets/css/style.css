@@ -327,6 +327,9 @@ h3 button:hover {
 .current_members .profile .std-name {
   margin-left: -5px;
 }
+.std-profile-link {
+  font-size: 16px;
+}
 @media (max-width: 767px) {
   .std-img-container {
     margin-bottom: 10px !important;

@@ -44,7 +44,7 @@ function displayImages() {
 
   imgContents.forEach((imgContent) => {
     slideContent += `
-      <div class="carousel-item" data-bs-interval="3000">
+      <div class="carousel-item" data-bs-interval="2000">
         <img src="${imgContent.img}" class="d-block" alt="" />
         <p class="text-center">${imgContent.name}</p>
       </div>`;
