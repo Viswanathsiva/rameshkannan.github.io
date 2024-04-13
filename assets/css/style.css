@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -345,6 +346,10 @@ h3 button:hover {
 }
 
 /* projects page  */
+.sponsor-font {
+  font-family: "Mukta", sans-serif;
+  font-weight: 600;
+}
 .projects .card {
   margin-bottom: 1rem !important;
 }
