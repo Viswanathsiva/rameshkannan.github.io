@@ -62,52 +62,49 @@ header .drpdn-list {
   margin: 4px 10px !important;
 }
 /* Home Page  */
-.home .card {
-  width: auto;
-  border: none;
-  border-radius: 10px;
-  background-color: #fff;
-}
-.home img {
-  width: 200px;
-}
-.home .profile-img-sch {
-  margin: 5px !important;
-  width: 35px !important;
-}
-.home img {
-  -webkit-user-drag: none;
-}
-.home .irins-img {
-  width: 70px !important;
-}
-.home .scholar-images .scopus-img {
-  width: 90px !important;
-  border-radius: 50px !important;
-}
-.home .scholar-images a {
-  color: transparent !important;
-  /* text-decoration: none !important; */
-}
-.home .social-cards i {
-  font-size: 25px;
-  margin: 5px 10px;
-}
-.home .more-info a {
-  text-decoration: none;
-  font-weight: 400 !important;
-}
-.home .more-info b {
-  font-weight: 600 !important;
-}
-.home i.bi-youtube {
-  color: #ff0000 !important;
-}
-.home i.bi-twitter {
-  color: #00acee !important;
-}
-.home i.bi-linkedin {
-  color: #0072b1 !important;
+.home {
+  .card {
+    width: auto;
+    border: none;
+    border-radius: 10px;
+    background-color: #fff;
+  }
+  img {
+    width: 200px;
+  }
+  .profile-img-sch {
+    margin: 5px !important;
+    width: 35px !important;
+  }
+  img {
+    -webkit-user-drag: none;
+  }
+  .irins-img {
+    width: 70px !important;
+  }
+  .scholar-images .scopus-img {
+    width: 90px !important;
+    border-radius: 50px !important;
+  }
+  .scholar-images a {
+    color: transparent !important;
+    /* text-decoration: none !important; */
+  }
+  .social-cards i {
+    font-size: 25px;
+    margin: 5px 10px;
+  }
+  .more-info a {
+    text-decoration: none;
+    font-weight: 400 !important;
+  }
+  .more-info b {
+    font-weight: 600 !important;
+  }
+  i.bi {
+    color: #235784;
+    margin-left: 10px;
+  }
 }
 
 /* about page  */
