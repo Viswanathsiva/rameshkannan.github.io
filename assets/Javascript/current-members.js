@@ -2,7 +2,7 @@
 const profiles = [
   {
     name: "Jithin S Kumar",
-    image: "./assets/images/students/jsk.jpg",
+    image: "jsk.jpg",
     degree: "Ph.D.",
     year: "2019 - Till now",
     isPrimaryGuidePresent: false,
@@ -17,7 +17,7 @@ const profiles = [
   },
   {
     name: "Nanduri Sesha Sai Pavan Kalyan",
-    image: "./assets/images/students/Pavan.jpg",
+    image: "Pavan.jpg",
     degree: "M.S. + Ph.D.",
     year: "2019 - Till now",
     isPrimaryGuidePresent: false,
@@ -33,7 +33,7 @@ const profiles = [
   },
   {
     name: "Sahil Wani",
-    image: "./assets/images/students/Sahil.png",
+    image: "Sahil.png",
     degree: "Ph.D.",
     year: "2020 - Till now",
     isPrimaryGuidePresent: false,
@@ -49,7 +49,7 @@ const profiles = [
   },
   {
     name: "Nitish Kumar",
-    image: "./assets/images/students/Nithish.png",
+    image: "Nithish.png",
     degree: "M.S. + Ph.D",
     year: "2020 - Till now",
     isPrimaryGuidePresent: false,
@@ -64,7 +64,7 @@ const profiles = [
   },
   {
     name: "Balaji Sai Lumar Bandaru",
-    image: "./assets/images/students/BalajiSaiKumarBandaru.jpeg",
+    image: "BalajiSaiKumarBandaru.jpeg",
     degree: "Ph.D.",
     year: "2021 - Till now",
     isPrimaryGuidePresent: true,
@@ -80,7 +80,7 @@ const profiles = [
   },
   {
     name: "Mahima S Rao",
-    image: "./assets/images/students/Mahima.JPG",
+    image: "Mahima.JPG",
     degree: "Ph.D.",
     year: "2022 - Till now",
     isPrimaryGuidePresent: false,
@@ -96,7 +96,7 @@ const profiles = [
 
   {
     name: "Mujeeb Ul Rehman",
-    image: "./assets/images/students/MujeebUlRehman.jpeg",
+    image: "MujeebUlRehman.jpeg",
     degree: "Ph.D.",
     year: "2022 - Till now",
     isPrimaryGuidePresent: true,
@@ -130,7 +130,8 @@ function displayProfiles() {
     clone.querySelector(".std-profile-link").href = profile.profileLink;
     clone.querySelector(".std-email").textContent = profile.email;
     clone.querySelector(".std-keywords").textContent = profile.keywords;
-    clone.querySelector("img").src = profile.image;
+    clone.querySelector("img").src =
+      "../assets/images/students/" + profile.image;
     clone.querySelector(".google-scholoar").href = profile.googleSchLink;
     clone.querySelector(".research-gate").href = profile.researchGateLink;
     clone.querySelector(".linkedin").href = profile.linkedinLink;

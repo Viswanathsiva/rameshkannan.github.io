@@ -2,7 +2,7 @@
 const profiles = [
   {
     name: "Saikiran Naikoti",
-    image: "./assets/images/students/alumni/SaiKiran.jpg",
+    image: "SaiKiran.jpg",
     degree: "M. Tech.",
     year: "2022 - 2024",
     thesisTitle:
@@ -13,7 +13,7 @@ const profiles = [
   },
   {
     name: "Megha S Narayanan",
-    image: "./assets/images/students/alumni/Megha.jfif",
+    image: "Megha.jfif",
     degree: "M. Tech.",
     year: "2021 - 2023",
     thesisTitle:
@@ -24,7 +24,7 @@ const profiles = [
   },
   {
     name: "Prakash Badu",
-    image: "./assets/images/students/alumni/Prakash.jpg",
+    image: "Prakash.jpg",
     degree: "M. Tech.",
     year: "2021 - 2023",
     thesisTitle:
@@ -35,7 +35,7 @@ const profiles = [
   },
   {
     name: "Rajeev Ranjan Kumar",
-    image: "./assets/images/students/alumni/Rajeev.png",
+    image: "Rajeev.png",
     degree: "M. Tech.",
     year: "2021 - 2023",
     thesisTitle: "A Simplified Hyperbolic model for gas hydrate sediments",
@@ -45,7 +45,7 @@ const profiles = [
   },
   {
     name: "Shabna Thasneem",
-    image: "./assets/images/students/alumni/Shabna_2022.jpg",
+    image: "Shabna_2022.jpg",
     degree: "M. Tech.",
     year: "2020 - 2022",
     thesisTitle:
@@ -56,7 +56,7 @@ const profiles = [
   },
   {
     name: "Rahul Ramachandran",
-    image: "./assets/images/students/alumni/Rahul_2022.jpg",
+    image: "Rahul_2022.jpg",
     degree: "M. Tech.",
     year: "2020 - 2022",
     thesisTitle:
@@ -67,7 +67,7 @@ const profiles = [
   },
   {
     name: "Neeraj Pulaganti",
-    image: "./assets/images/students/alumni/Neeraj_2021.png",
+    image: "Neeraj_2021.png",
     degree: "M. Tech.",
     year: "2019 - 2021",
     thesisTitle:
@@ -78,7 +78,7 @@ const profiles = [
   },
   {
     name: "Selvakumar N",
-    image: "./assets/images/students/alumni/Selva_2020.png",
+    image: "Selva_2020.png",
     degree: "M. Tech.",
     year: "2018 - 2020",
     thesisTitle:
@@ -89,7 +89,7 @@ const profiles = [
   },
   {
     name: "Neeraj Keserwani",
-    image: "./assets/images/students/alumni/Neeraj_2020.png",
+    image: "Neeraj_2020.png",
     degree: "M. Tech.",
     year: "2018 - 2020",
     thesisTitle:
@@ -115,7 +115,8 @@ function displayProfiles() {
     clone.querySelector(".std-thesis-link").href = profile.thesisLink;
     clone.querySelector(".std-email").textContent = profile.email;
     clone.querySelector(".std-affiliation").textContent = profile.affiliation;
-    clone.querySelector("img").src = profile.image;
+    clone.querySelector("img").src =
+      "../assets/images/students/alumni/" + profile.image;
 
     container.appendChild(clone);
   });
