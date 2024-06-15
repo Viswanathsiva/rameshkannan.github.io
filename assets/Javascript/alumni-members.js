@@ -31,7 +31,7 @@ const profiles = [
       "Micromechanics of aggregate-rubber interactions during simple shear - A DEM study",
     thesisLink: "",
     email: "prakash.badu123@gmail.com",
-    affiliation: "Upper Arun Hydro Electric Limited",
+    affiliation: "Montana State University, USA",
   },
   {
     name: "Rajeev Ranjan Kumar",
