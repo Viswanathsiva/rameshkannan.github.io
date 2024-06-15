@@ -349,6 +349,12 @@ h3 button:hover {
 }
 .projects .card {
   margin-bottom: 1rem !important;
+  /* color: #4f4f4f !important; */
+}
+.projects .card:hover {
+  background-color: #ebebebef;
+  padding: 0 5px;
+  transition: 0.3s ease-in-out;
 }
 .projects .card-title {
   font-size: 17px !important;

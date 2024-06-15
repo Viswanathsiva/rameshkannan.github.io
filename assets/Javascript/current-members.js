@@ -28,7 +28,7 @@ const profiles = [
     keywords: "Particle characterization, µCT, Contact mechanics",
     googleSchLink:
       "https://scholar.google.co.in/citations?user=R5rSqzgAAAAJ&hl=en",
-    researchGateLink: "",
+    researchGateLink: "https://www.researchgate.net/profile/Nssp-Kalyan",
     linkedinLink: "",
   },
   {

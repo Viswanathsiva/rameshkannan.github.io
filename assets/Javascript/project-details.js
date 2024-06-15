@@ -1,6 +1,13 @@
 const projects = [
   {
     projectTitile:
+      "Pilot project on flood & earthquake safety of existing dams in the state of Maharashtra",
+    role: "Co-Principal Investigator",
+    sponsor: "Water Resources Department, Govt. of Maharashtra",
+    timePeriod: "2024 - 2027",
+  },
+  {
+    projectTitile:
       "Study of compaction mechanics of bituminous mixtures and applications in 3-D paving",
     role: "Co-Principal Investigator",
     sponsor: "Core research grant, SERB",
