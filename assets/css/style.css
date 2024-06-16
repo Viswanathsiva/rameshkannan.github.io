@@ -359,11 +359,6 @@ h3 button:hover {
 .projects .card-title {
   font-size: 17px !important;
 }
-.projects .card-header {
-  background-color: #46658b;
-  color: azure;
-  font-weight: 600;
-}
 .projects .btn {
   background-color: #6387b4 !important;
   color: #ffffff;
