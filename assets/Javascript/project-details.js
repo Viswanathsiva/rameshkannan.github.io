@@ -10,7 +10,7 @@ const projects = [
     projectTitile:
       "Study of compaction mechanics of bituminous mixtures and applications in 3-D paving",
     role: "Co-Principal Investigator",
-    sponsor: "Core research grant, SERB",
+    sponsor: "Core Research Grant, SERB",
     timePeriod: "2024 - 2027",
   },
   {
