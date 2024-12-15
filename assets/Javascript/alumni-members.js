@@ -1,6 +1,17 @@
 // Array of Alumni profile objects
 const profiles = [
   {
+    name: "Jithin S Kumar",
+    image: "jsk.jpg",
+    degree: "Ph. D.",
+    year: "2019 - 2024",
+    thesisTitle:
+      "Understanding the flow dynamics and deformation characteristics during fluid injection through porous media",
+    thesisLink: "",
+    email: "jithin.jsk@gmail.com ",
+    affiliation: "Senior Project Officer, IIT Madras",
+  },
+  {
     name: "Saikiran Naikoti",
     image: "SaiKiran.jpg",
     degree: "M. Tech.",
