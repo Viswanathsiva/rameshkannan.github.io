@@ -116,7 +116,7 @@ function displayProfiles() {
     clone.querySelector(".std-email").textContent = profile.email;
     clone.querySelector(".std-affiliation").textContent = profile.affiliation;
     clone.querySelector("img").src =
-      "../assets/images/students/alumni/" + profile.image;
+      "./assets/images/students/alumni/" + profile.image;
 
     container.appendChild(clone);
   });

@@ -131,7 +131,7 @@ function displayProfiles() {
     clone.querySelector(".std-email").textContent = profile.email;
     clone.querySelector(".std-keywords").textContent = profile.keywords;
     clone.querySelector("img").src =
-      "../assets/images/students/" + profile.image;
+      "./assets/images/students/" + profile.image;
     clone.querySelector(".google-scholoar").href = profile.googleSchLink;
     clone.querySelector(".research-gate").href = profile.researchGateLink;
     clone.querySelector(".linkedin").href = profile.linkedinLink;

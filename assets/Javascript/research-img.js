@@ -46,7 +46,7 @@ function displayImages() {
     slideContent += `
       <div class="carousel-item" data-bs-interval="2000">
         <img src="${
-          "../assets/images/others/" + imgContent.img
+          "./assets/images/others/" + imgContent.img
         }" class="d-block" alt="" />
         <p class="text-center">${imgContent.name}</p>
       </div>`;
