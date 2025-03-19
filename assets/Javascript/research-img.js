@@ -16,6 +16,10 @@ const imgContents = [
     name: "CITA - Concrete Image Thresholder and Analyser",
   },
   {
+    img: "Agg_fracture.png",
+    name: "Aggregate breakage under pseudo-realistic and realisitc morphologies using PD-DEM",
+  },
+  {
     img: "zones.jfif",
     name: "Fluid Induced Cavity Expansion Model for Porous Medium",
   },

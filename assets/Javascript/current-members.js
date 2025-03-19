@@ -1,20 +1,20 @@
 // Array of Alumni profile objects
 const profiles = [
-  {
-    name: "Jithin S Kumar",
-    image: "jsk.jpg",
-    degree: "Ph.D.",
-    year: "2019 - Till now",
-    isPrimaryGuidePresent: false,
-    researchTitle: "Fluid-Solid interaction, Cavity expansion modelling",
-    profileLink: "",
-    email: "ce19d012@smail.iitm.ac.in",
-    keywords: "Physics of fingering, Fracturing, Patterns",
-    googleSchLink:
-      "https://scholar.google.co.in/citations?user=TcJS02cAAAAJ&hl=en",
-    researchGateLink: "https://www.researchgate.net/profile/Jithin-Kumar-3",
-    linkedinLink: "https://in.linkedin.com/in/jithin-s-kumar-090591b2",
-  },
+  // {
+  //   name: "Jithin S Kumar",
+  //   image: "jsk.jpg",
+  //   degree: "Ph.D.",
+  //   year: "2019 - Till now",
+  //   isPrimaryGuidePresent: false,
+  //   researchTitle: "Fluid-Solid interaction, Cavity expansion modelling",
+  //   profileLink: "",
+  //   email: "ce19d012@smail.iitm.ac.in",
+  //   keywords: "Physics of fingering, Fracturing, Patterns",
+  //   googleSchLink:
+  //     "https://scholar.google.co.in/citations?user=TcJS02cAAAAJ&hl=en",
+  //   researchGateLink: "https://www.researchgate.net/profile/Jithin-Kumar-3",
+  //   linkedinLink: "https://in.linkedin.com/in/jithin-s-kumar-090591b2",
+  // },
   {
     name: "Nanduri Sesha Sai Pavan Kalyan",
     image: "Pavan.jpg",
