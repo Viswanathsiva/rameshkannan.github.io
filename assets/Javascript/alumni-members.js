@@ -9,7 +9,7 @@ const profiles = [
       "Understanding the flow dynamics and deformation characteristics during fluid injection through porous media",
     thesisLink: "",
     email: "jithin.jsk@gmail.com ",
-    affiliation: "Senior Project Officer, IIT Madras",
+    affiliation: "ExxonMobil",
   },
   {
     name: "Saikiran Naikoti",
